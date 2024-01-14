@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         We're working hard to bring you something amazing. Stay tuned!
       </p>
       <div className="flex items-center gap-5">
-        {/*<Link href="/https://github.com/muhammadNaveedWarraich" target="_blank">
+        <Link href="/https://github.com/muhammadNaveedWarraich" target="_blank">
           <FaGithub className="border rounded-full animate-pulse text-white  w-10 h-10 p-2 cursor-pointer test-2xl " />
         </Link>
         <Link
@@ -33,7 +33,7 @@ export default function Home() {
           target="_blank"
         >
           <FaInstagram className="border rounded-full animate-pulse text-white  w-10 h-10 p-2 cursor-pointer test-2xl " />
-  </Link> */}
+        </Link>
       </div>
     </div>
   );
